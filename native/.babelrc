@@ -1,0 +1,11 @@
+{
+  "presets": ["babel-preset-expo"],
+  "plugins": [
+    ["relay", {"schema": "../server/data/schema.graphql"}]
+  ],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
